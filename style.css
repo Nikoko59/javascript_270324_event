@@ -1,0 +1,265 @@
+*{
+    font-family: "Lato" , sans-serif;
+
+}
+i {
+    margin-left: 20px;
+    color: white ; 
+
+
+
+}
+
+#btn2{
+    padding: 10px;
+    color : orange ;
+    background: #070142;
+    width: 200px;
+    font-size: 1.2rem; 
+}
+
+#tit{
+    font-size : 4rem; 
+    color : white; 
+    padding: 20px;
+   }
+   #par1{
+  font-size : 1.8rem; 
+  font-weight: 600;
+   }
+
+body {
+    margin: 0;
+
+    padding: 0;
+    background: #f2f2f2;
+   
+
+}
+
+div.happy {
+    background :url(./assets/img/life.png) center/cover no-repeat  ; 
+    min-height: 600px;
+    width: 100%;
+
+
+
+
+    
+}
+.mindset {
+    background: black;
+    opacity : 0.7; 
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+p{
+    color : white ; 
+    text-align: center;
+    line-height: 1.5em ;
+
+}
+
+#lifestyle {
+    color : orange ; 
+    font-weight: 700;
+    width : 800px; 
+    line-height: 1.8rem; 
+    padding: 20px;
+   font-size : 1.6rem ; 
+   letter-spacing: 1px;
+}
+
+#lifestyle:hover{
+    background: orange;
+    color : blue; 
+}
+
+#lifestyle::first-letter {
+    color : blue; 
+    background: orange;
+    font-size: 1.4rem;
+}
+
+
+
+#btn{
+    background: orange;
+    color : black ; 
+    border : 1px solid black ; 
+    padding: 10px;
+    font-size: 1.1rem ; 
+    cursor : pointer ; 
+   width: 200px;
+   font-weight: 600; 
+   text-transform: uppercase;
+    
+
+}
+
+
+
+
+  .container {
+    display: flex;
+justify-content: center;
+    align-items: center;
+    position : relative; 
+    width: 100%; 
+    background: white;
+  }
+
+  .content-right{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+.content-left{
+ background: #f2f2f2;
+ padding: 40px;
+ height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    border-radius : 30px; 
+    box-shadow:  1px 4px 12px black;
+    width: 1000px;
+}
+
+.content-left:hover {
+    background:orange;
+    border :2px solid black ; 
+}
+
+#tit1{
+color : red; 
+font-size: 2.8rem; 
+background : black; 
+width: 300px;
+text-align: center;
+border-radius :200px; 
+}
+
+span {
+
+text-align: center;
+margin: 20px;
+ 
+}
+
+
+
+  img{
+    padding: 10px;
+    width: 100%;
+    margin: 25px;
+    border: 2px solid orange; 
+    height: 600px;
+    width: 600px;
+    opacity : 0.8; 
+    transform : scale(0.8);
+  }
+
+  img:hover{
+    opacity : 1; 
+    transform :scale(1); 
+    transform: translateX(130px)
+
+  }
+
+  #box1 {
+ 
+    height: 400px;
+    width: 400px;
+  opacity : 0.5 ; 
+    border-radius : 200px; 
+    
+  }
+  #box1:hover{
+    transform : none ; 
+    opacity : 1 ; 
+  }
+
+  #box2{
+ 
+    height: 400px;
+    width: 400px;
+
+    border-radius : 200px; 
+    
+  }
+
+  #box2:hover{
+    transform : none ; 
+  }
+
+  #box3 {
+ 
+    height: 400px;
+    width: 400px;
+
+    border-radius : 200px; 
+    
+  }
+
+  #box3:hover{
+    transform : none ; 
+  }
+
+  /*  box */
+  .box-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    position : relative; 
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background: white;
+    border-radius : 200px;
+    position : relative; 
+  }
+
+  .text-bloc {
+    position: absolute;
+   border-radius: 20px;
+    background-color: black;
+    color: white;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+  opacity : 0.8
+  }
+
+.link{
+  color : white ; 
+  font-size : 1.2rem ; 
+  background: black;
+  padding: 10px;
+  cursor: pointer ; 
+}
+
+a{
+  text-decoration:  none; 
+  color : white ; 
+  
+}
